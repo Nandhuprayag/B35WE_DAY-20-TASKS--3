@@ -1,0 +1,30 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container
+{
+    min-width: 100%;
+}
+#fisher_img
+{
+    width: 4rem;
+}
+
+
+@media   (min-width:320px) and (max-width:430px) {
+    .container
+    {
+        min-width:100%
+    }
+    .navbar
+    {
+        min-width: 650px;
+    }
+    .fisher-display
+    {
+        min-width: 650px;
+    }
+}
